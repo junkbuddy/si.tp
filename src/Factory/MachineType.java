@@ -5,6 +5,7 @@
 package Factory;
 
 /**
+ * MachineType.java will hold the types of machine and will provide machine types to all other classes
  * 
  * @author Group 7
  */
