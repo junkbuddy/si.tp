@@ -19,6 +19,13 @@ public class CuttingMachine extends Machine{
         super(MachineType.CUTTING);
         construct();
     }
+
+    @Override
+    protected void setup() {
+        super.setup(); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
     
     
     @Override

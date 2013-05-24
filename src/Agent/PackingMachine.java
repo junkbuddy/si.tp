@@ -20,6 +20,12 @@ public class PackingMachine extends Machine{
         construct();
     }
 
+    @Override
+    protected void setup() {
+        super.setup(); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    
     
     
     @Override
