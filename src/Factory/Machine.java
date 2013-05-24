@@ -6,6 +6,8 @@ package Factory;
 
 import jade.core.Agent;
 
+
+
 /**
  *
  * 
@@ -15,7 +17,7 @@ import jade.core.Agent;
  * 
  * @author Group 7
  */
-public abstract class Machine extends Agent {
+public abstract class Machine extends Agent{
     
     private MachineType model = null;
 
