@@ -48,8 +48,7 @@ public class MachineFactory {
                     //throw exception - a definir ainda.
                     break;
             }
-            machine.start(); 
-            
+           
         } catch (StaleProxyException ex) {
             Logger.getLogger(MachineFactory.class.getName()).log(Level.SEVERE, null, ex);
         }

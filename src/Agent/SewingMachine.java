@@ -22,14 +22,14 @@ public class SewingMachine extends Machine{
 
     @Override
     protected void setup() {
-        super.setup(); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Hello World. My name is " + this.getLocalName());
     }
 
     
     
     @Override
     protected void construct() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         System.out.println("Sewing");
     }
     
 }

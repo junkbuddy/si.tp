@@ -22,7 +22,7 @@ public class CuttingMachine extends Machine{
 
     @Override
     protected void setup() {
-        super.setup(); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Hello World. My name is " + this.getLocalName());
     }
     
     
